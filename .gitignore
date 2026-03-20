@@ -1,0 +1,43 @@
+# Cabal / Stack build artifacts
+dist/
+dist-newstyle/
+cabal-dev/
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# GHCi
+.ghci
+*.ghc.environment.*
+
+# Hackage/Cabal local files
+cabal.project.local
+cabal.project.local~
+
+# Stack (if used later)
+.stack-work/
+
+# Test / coverage outputs
+*.tix
+*.mix
+hpc/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
